@@ -13,6 +13,7 @@ export default defineConfig([
   pluginReact.configs.flat.recommended,
   {
     rules: {
+      "@typescript-eslint/explicit-function-return-type": "error",
       "react/react-in-jsx-scope": 0,
       "semi": [2, "never"],
       "comma-dangle": [2, "never"]
