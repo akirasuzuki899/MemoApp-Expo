@@ -14,7 +14,6 @@ const handlePress = (): void => {
 const List = (): JSX.Element => {
   return (
     <View style={styles.container}>
-      <Header />
       <View>
         <MemoListItem />
         <MemoListItem />

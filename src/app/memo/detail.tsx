@@ -13,7 +13,6 @@ const handlePress = (): void => {
 const Detail = (): JSX.Element => {
   return (
     <View style={styles.container}>
-      <Header />
       <View style={styles.memoHeader}>
         <Text style={styles.memoTitle}>買い物リスト</Text>
         <Text style={styles.memoDate}>2023年10月1日 10:00</Text>
@@ -30,7 +29,7 @@ const Detail = (): JSX.Element => {
           買い物リスト
         </Text>
       </ScrollView>
-      <CircleButton onPress={handlePress} style={{ top: 160, bottom: 'auto' }}>
+      <CircleButton onPress={handlePress} style={{ top: 60, bottom: 'auto' }}>
         <Icon name='pencil' size={40} color='#fff'/>
       </CircleButton>
     </View>
