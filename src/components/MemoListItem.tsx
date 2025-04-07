@@ -1,5 +1,7 @@
 import { View, Text, StyleSheet } from 'react-native'
 
+import Icon from './Icon'
+
 const MemoListItem = (): JSX.Element => {
   return (
     <View style={styles.memoListItem}>
@@ -8,7 +10,7 @@ const MemoListItem = (): JSX.Element => {
         <Text style={styles.memoListItemDate}>2023年10月1日 10:00</Text>
       </View>
       <View>
-        <Text>X</Text>
+        <Icon name='delete' size={32} color='#B0B0B0' />
       </View>
     </View>
   )
