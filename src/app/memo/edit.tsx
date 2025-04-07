@@ -3,7 +3,6 @@ import {
 } from 'react-native'
 import { router } from 'expo-router'
 
-import Header from '../../components/Header'
 import CircleButton from '../../components/CircleButton'
 import Icon from '../../components/Icon'
 
