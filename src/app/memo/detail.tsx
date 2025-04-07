@@ -2,7 +2,7 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native'
 
 import Header from '../../components/Header'
 import CircleButton from '../../components/CircleButton'
-import Icon from '../../components/icon'
+import Icon from '../../components/Icon'
 
 const Detail = (): JSX.Element => {
   return (
