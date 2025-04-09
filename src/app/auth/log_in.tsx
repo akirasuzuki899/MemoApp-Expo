@@ -6,7 +6,7 @@ import { useState } from 'react'
 import { signInWithEmailAndPassword } from 'firebase/auth'
 
 import { auth } from '../../config'
-import Button from '../../components/button'
+import Button from '../../components/Button'
 
 const handlePress = (email: string, password: string): void => {
   signInWithEmailAndPassword(auth, email, password)
